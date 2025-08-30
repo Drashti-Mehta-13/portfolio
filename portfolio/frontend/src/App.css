@@ -1,0 +1,124 @@
+body{
+  background-color: #F2F0EF;
+}
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #27293d);
+  color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr_img{
+  width:70%
+}
+
+.card {
+  background-color: #2c2f48;
+  border: none;
+  color: #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn-info {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #357abd;
+  border-color: #357abd;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #5c6bc0;
+  border-color: #5c6bc0;
+  color: white;
+  width: 100%;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #3949ab;
+  border-color: #3949ab;
+}
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: #ffffff;
+   border-color: #4a90e2;
+  color: #000;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #5e9ce2, #61cdd1);
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: background 0.3s ease;
+}
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #141414, #2b2f4a);
+}
+
+.template-one {
+  background: #f9f9f9;
+  color: #222;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.template-one h2, .template-one h3, .template-one p {
+  color: #222;
+}
+
+.navbar-dark.bg-dark {
+  background: linear-gradient(90deg, #141414, #2b2f4a);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.rounded {
+  border-radius: 0.5rem !important;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 150px;
+  }
+}
+
